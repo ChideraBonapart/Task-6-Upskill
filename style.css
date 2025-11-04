@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    text-align: center;
+    background-image: url(grades.jpg);
+    font-size: 18px;
+}
+
+.navbar-box{
+    padding:30px;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    float: right;
+}
+
+@media(max-width:576px){
+    .navbar{
+    float:none
+    }
+
+    .notice-box{
+    max-width: 150px;
+    }
+}
+
+.navbar a{
+    text-decoration: none;
+    min-height: 16px;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #222;
+}
+
+.navbar a:hover {
+    background-color: #0080ff;;
+    color: #fff;
+}
+h1{
+    background-color: #999999;
+    padding: 20px;
+}
+
+h2{
+    padding: 30px;
+    background-color: #999999b6;
+}
+
+div{
+    padding: 120px
+}
+
+.notice-box{
+    max-width: 500px;
+    border-radius: 15px;
+    padding:30px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+footer{
+    padding: 30px;
+    background-color: #999999;
+    
+}
